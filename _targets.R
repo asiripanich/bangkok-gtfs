@@ -1,7 +1,7 @@
 library(targets)
 
 # Set target-specific options such as packages.
-tar_option_set(packages = c("here", "fs", "R.utils"))
+tar_option_set(packages = c("here", "fs", "R.utils", "curl"))
 source(here::here("R", "functions.R"))
 
 # End this file with a list of target objects.
