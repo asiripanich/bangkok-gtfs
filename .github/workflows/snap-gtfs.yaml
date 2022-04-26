@@ -1,0 +1,39 @@
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+name: snap-gtfs
+
+jobs:
+  R-CMD-check:
+    runs-on: macOS-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      R_KEEP_PKG_SOURCE: yes
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: r-lib/actions/setup-r@v1
+        with:
+          use-public-rspm: true
+
+      - name: Install renv
+        run: Rscript -e 'install.packages(c("renv"))'
+
+      - name: Install packages
+        run: Rscript -e 'renv::restore()'
+
+      - name: Run targets
+        run: Rscript -e 'targets::tar_make()'
+
+      - name: Commit
+        run: |
+          git config --global user.name 'asiripanich'
+          git config --global user.email '17020181+asiripanich@users.noreply.github.com'
+          git add .
+          git commit -m 'GTFS snapshot' || echo "No changes to commit"
+          git push || echo "No changes to commit"
