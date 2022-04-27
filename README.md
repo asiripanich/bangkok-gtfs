@@ -10,7 +10,7 @@ The goal of bangkok-gtfs is to make daily snapshots of Bangkok GTFS
 accessible to anyone. This project started on 26/04/2022. Better late
 than never!
 
-See <https://github.com/asiripanich/bangkok-gtfs/tree/main/data/gtfs>.
+The table below is updated every time there is a new snapshot of GTFS.
 
 | time                | download_link                                                                                         |
 |:--------------------|:------------------------------------------------------------------------------------------------------|
