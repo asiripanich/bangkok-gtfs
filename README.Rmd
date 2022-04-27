@@ -9,6 +9,8 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
 )
+library(dplyr)
+library(gert)
 ```
 
 # bangkok-gtfs
@@ -21,3 +23,12 @@ This project started on 26/04/2022.
 Better late than never!
 
 See https://github.com/asiripanich/bangkok-gtfs/tree/main/data/gtfs.
+
+```{r, echo = FALSE}
+gert::git_log(max = 10000000L) %>%
+  filter(time == min(time) | grepl("^GTFS snapshot\\n$", message)) %>%
+  mutate(download_link = paste0("https://github.com/asiripanich/bangkok-gtfs/tree/", commit, "/data/gtfs")) %>%
+  select(time, download_link) %>%
+  arrange(-order(time)) %>%
+  knitr::kable()
+```
