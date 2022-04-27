@@ -35,5 +35,10 @@ jobs:
           git config --global user.name 'asiripanich'
           git config --global user.email '17020181+asiripanich@users.noreply.github.com'
           git add .
+          git add data/gtfs
           git commit -m 'GTFS snapshot' || echo "No changes to commit"
+          git add data/namtang-parking.txt
+          git commit -m 'Parking snapshot' || echo "No changes to commit"
+          git add data/namtang-stop.txt
+          git commit -m 'Stop snapshot' || echo "No changes to commit"
           git push || echo "No changes to commit"
