@@ -15,4 +15,4 @@ The table below is updated every time there is a new snapshot of GTFS.
 
 | time                | download\_link                                                                                        |
 | :------------------ | :---------------------------------------------------------------------------------------------------- |
-| 2022-04-27 09:23:35 | <https://github.com/asiripanich/bangkok-gtfs/tree/58677e0006d5746c58937a0fdbee8edbe5b8a21b/data/gtfs> |
+| 2022-04-28 00:04:12 | <https://github.com/asiripanich/bangkok-gtfs/tree/7c5a8cbaa36d62ff061c3e5ef959e72129c81d0a/data/gtfs> |
