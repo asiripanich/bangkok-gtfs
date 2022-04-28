@@ -33,10 +33,3 @@ gert::git_log(max = 10000000L) %>%
   arrange(-order(time)) %>%
   knitr::kable()
 ```
-
-All commits:
-
-```{r, echo = FALSE}
-gert::git_log(max = 10000000L) %>%
-  knitr::kable()
-```
