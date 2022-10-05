@@ -9,6 +9,7 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
 )
+library(targets)
 library(dplyr)
 library(gert)
 ```
@@ -25,6 +26,10 @@ Better late than never!
 The table below is updated every time there is a new snapshot of GTFS.
 
 ```{r, echo = FALSE}
+tar_load(gtfs)
+tar_load(stop)
+tar_load(parking)
+
 gert::git_log(max = 10000000L) %>%
   filter(time == min(time) | grepl("^GTFS snapshot\\n$", message)) %>%
   filter(commit != "a1b9d2d20ca60965b61d530d1e187651c84dff1a") %>% # stuffed up
