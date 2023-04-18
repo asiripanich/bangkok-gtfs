@@ -15,6 +15,7 @@ The table below is updated every time there is a new snapshot of GTFS.
 
 | time                | download\_link                                                                                        |
 | :------------------ | :---------------------------------------------------------------------------------------------------- |
+| 2023-04-17 00:41:10 | <https://github.com/asiripanich/bangkok-gtfs/tree/404adee63a3bd34e5c6ec6f38a7558f43687fbed/data/gtfs> |
 | 2023-04-16 00:42:09 | <https://github.com/asiripanich/bangkok-gtfs/tree/22c476429a99dd066c320597af6c2ada61bb75a6/data/gtfs> |
 | 2023-04-15 00:41:42 | <https://github.com/asiripanich/bangkok-gtfs/tree/cd92ac1772a5077e798a1c995741a787cc127494/data/gtfs> |
 | 2023-04-14 00:40:56 | <https://github.com/asiripanich/bangkok-gtfs/tree/1e927244ce5a8e6ef9b72c9280220fe212de77f1/data/gtfs> |
