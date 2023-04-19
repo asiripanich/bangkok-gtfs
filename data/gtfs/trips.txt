@@ -3473,6 +3473,6 @@ route_id,service_id,trip_id,trip_headsign,direction_id,shape_id,wheelchair_acces
 "2025","2","5323","คลองสาน;Khlong San","1","1873","1"
 "2025","2","5324","กรุงธนบุรี [สายสีทอง];Krung Thon Buri [Gold Line]","0","1874","1"
 "2026","3","5325","รังสิต;Rangsit","0","1875","2"
-"2026","3","5326","สถานีกลางบางซื่อ;Bang Sue Grand Station","1","1876","2"
+"2026","3","5326","สถานีกลางกรุงเทพอภิวัฒน์;Krung Thep Aphiwat Central Terminal Station","1","1876","2"
 "2027","3","5327","ตลิ่งชัน;Taling Chan","0","1877","2"
-"2027","3","5328","สถานีกลางบางซื่อ;Bang Sue Grand Station","1","1878","2"
+"2027","3","5328","สถานีกลางกรุงเทพอภิวัฒน์;Krung Thep Aphiwat Central Terminal Station","1","1878","2"
