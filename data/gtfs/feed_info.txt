@@ -1,2 +1,2 @@
 feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version,feed_contact_url
-"สำนักงานนโยบายและแผนการขนส่งและจราจร กระทรวงคมนาคม","https://namntang.otp.go.th/","tha","20230101","20231231","20230421","https://m.me/namtangugoweguide"
+"สำนักงานนโยบายและแผนการขนส่งและจราจร กระทรวงคมนาคม","https://namntang.otp.go.th/","tha","20230101","20231231","20230422","https://m.me/namtangugoweguide"
