@@ -9,7 +9,7 @@ on:
 name: snap-gtfs
 
 jobs:
-  R-CMD-check:
+  snap-gtfs:
     runs-on: macOS-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
