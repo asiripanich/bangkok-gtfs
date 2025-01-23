@@ -4,7 +4,7 @@
 # bangkok-gtfs
 
 <!-- badges: start -->
-
+[![snap-gtfs](https://github.com/asiripanich/bangkok-gtfs/actions/workflows/snap-gtfs.yaml/badge.svg)](https://github.com/asiripanich/bangkok-gtfs/actions/workflows/snap-gtfs.yaml)
 <!-- badges: end -->
 
 The goal of bangkok-gtfs is to make daily snapshots of Bangkok GTFS
